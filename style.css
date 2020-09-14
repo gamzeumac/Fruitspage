@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,600&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Ralevay', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.heroContainer{
+    height: 40vh;
+    width: 100vw;
+    display: block ;
+   
+    flex-direction: row;
+}
+/*Hero Section*/
+#hero{
+    background-image:url('./img/kirmizimeyveler.jpg') ;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+h1{
+    color: rgb(194, 167, 160);
+    font-size: 3rem;
+    border: 3px solid #16747a;
+    padding: 1.5rem 1rem 0.5rem 2rem;
+    width: fit-content;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+
+}
+a{
+    color: rgb(139, 233, 121);
+    font-size: 20px;
+    border: 2px solid #363236;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    position: relative;
+}
+
+
