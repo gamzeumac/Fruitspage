@@ -47,3 +47,37 @@ height: 40px;
     font-size: 10px;
     }
 
+ ul li a{
+        position:relative;
+        font-size: 20px;
+        text-align: center;
+  }
+
+ul {
+    display: flex;
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    height: 3rem;
+    width: 3rem;
+}  
+
+li {
+    width: auto;
+    height:3rem;
+    background-color: slateblue;
+    margin: 2rem;
+}
+.dateClass {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    background-color: aqua;
+    margin: 50px;
+    padding: 50px;
+    
+
+
+}
+
+
