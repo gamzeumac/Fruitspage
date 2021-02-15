@@ -24,10 +24,10 @@ function myFunction() {
 
 }
 
-var tag = document.getElementById('Faydalari');
+var tag = document.getElementById('image');
 var button = document.querySelector('button');
 button.addEventListener('click', function () {
-    tag.classList.toggle('Faydalari');
+    tag.classList.toggle('image');
 });
 
 function myFunction1() {
