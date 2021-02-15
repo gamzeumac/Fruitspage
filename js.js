@@ -10,7 +10,7 @@ var button = document.querySelector('button');
 button.addEventListener('click', function () {
     tag.classList.toggle('demo');
 });
-var openToState = true;
+var openToState = false;
 function myFunction() {
     if (openToState == true) {
         openToState = false;
@@ -30,3 +30,8 @@ button.addEventListener('click', function () {
     tag.classList.toggle('Faydalari');
 });
 
+function myFunction1() {
+console.log('test')
+
+
+}

@@ -65,7 +65,7 @@ ul {
 li {
     width: auto;
     height:3rem;
-    background-color: slateblue;
+    background-color: rgb(130, 235, 177);
     margin: 2rem;
 }
 .dateClass {
@@ -87,24 +87,53 @@ li {
 
  }
 
- .Kiraz {
+
+
+ .faydalari {
     position: relative;
     width: 50%;
+    padding: auto;
+    margin: auto;
+    right: 0%;
+  
   }
 
-  .Kiraz .btn {
+  .hover-overlay-container {
     position: relative;
-    top: 40%;
-    left: 30%;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.hover-overlay-container:hover .overlay-text-container {
+    opacity: 1;
+}
+
+.hover-overlay-container .overlay-image {
+    display: auto;
+    width: 100%;
+    height: auto;
+}
+
+.hover-overlay-container .overlay-text-container {
+    position: relative;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    height: 10%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #00AEEF;
+}
+
+.hover-overlay-container .overlay-text-container .overlay-text {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: rgb(243, 152, 152);
-    font-size: 20px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
-  }
-  
-  .Kiraz .btn:hover {
-    background-color: rgb(231, 86, 86);
-  }
+    }
+
