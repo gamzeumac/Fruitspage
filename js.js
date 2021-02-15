@@ -10,7 +10,7 @@ var button = document.querySelector('button');
 button.addEventListener('click', function () {
     tag.classList.toggle('demo');
 });
-var openToState = false;
+var openToState = false
 function myFunction() {
     if (openToState == true) {
         openToState = false;
@@ -20,18 +20,6 @@ function myFunction() {
         document.querySelector(".openTo").style.display = "block"
 
     }
-
-
-}
-
-var tag = document.getElementById('image');
-var button = document.querySelector('button');
-button.addEventListener('click', function () {
-    tag.classList.toggle('image');
-});
-
-function myFunction1() {
-console.log('test')
 
 
 }
