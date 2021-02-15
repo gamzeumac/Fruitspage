@@ -49,24 +49,41 @@ height: 40px;
 
  ul li a{
         position:relative;
-        font-size: 20px;
         text-align: center;
+        text-decoration: none;
+        background-color:rgb(130, 235, 177);
+        font: bold 14px Tahoma;
+        display: block;
+        width: 140px;
+        height: 20px;
+        padding: 10px
   }
+
+ul li a:hover {
+      background-color: salmon;
+      color: seashell;
+  }
+ ul li a:active {
+     background-color:springgreen;
+     color: black;
+
+ } 
 
 ul {
     display: flex;
     background-color: transparent;
     margin: 10px;
     padding: 10px;
-    height: 3rem;
-    width: 3rem;
+    height: 20px;
+    width: 30px;
 }  
 
 li {
     width: auto;
-    height:3rem;
-    background-color: slateblue;
+    height: 20px;
+    background-color: rgb(130, 235, 177);
     margin: 2rem;
+    float: left;
 }
 .dateClass {
     width: 50px;
@@ -86,25 +103,33 @@ li {
 
 
  }
-
- .Kiraz {
+ #Kirmizimeyveler {
+     display: flex;
+     flex-direction:row;
+     justify-content: space-between;
+     width: 50%;
+ }
+ #Kiraz {
+     width: 150%;
+ }
+  .container {
     position: relative;
     width: 50%;
   }
-
-  .Kiraz .btn {
-    position: relative;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: rgb(243, 152, 152);
-    font-size: 20px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
+  
+  .image {
+    height: auto;
   }
   
-  .Kiraz .btn:hover {
-    background-color: rgb(231, 86, 86);
+    
+  .text {
+    color: rgb(231, 26, 26);
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: flex-start;
+    position: relative;
+    width: 30%;
+    height: 50%;
   }

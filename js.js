@@ -10,7 +10,7 @@ var button = document.querySelector('button');
 button.addEventListener('click', function () {
     tag.classList.toggle('demo');
 });
-var openToState = true;
+var openToState = false;
 function myFunction() {
     if (openToState == true) {
         openToState = false;
@@ -24,9 +24,14 @@ function myFunction() {
 
 }
 
-var tag = document.getElementById('Faydalari');
+var tag = document.getElementById('image');
 var button = document.querySelector('button');
 button.addEventListener('click', function () {
-    tag.classList.toggle('Faydalari');
+    tag.classList.toggle('image');
 });
 
+function myFunction1() {
+console.log('test')
+
+
+}
