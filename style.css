@@ -20,7 +20,7 @@ header{
 }
  a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(228, 39, 39);
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.6s ease;
@@ -47,7 +47,7 @@ height: 40px;
     font-size: 10px;
     }
 
- ul li a{
+.main ul li a{
         position:relative;
         text-align: center;
         text-decoration: none;
@@ -59,17 +59,17 @@ height: 40px;
         padding: 10px
   }
 
-ul li a:hover {
+.main ul li a:hover {
       background-color: salmon;
       color: seashell;
   }
- ul li a:active {
+.main ul li a:active {
      background-color:springgreen;
      color: black;
 
  } 
 
-ul {
+.main ul {
     display: flex;
     background-color: transparent;
     margin: 10px;
@@ -78,7 +78,7 @@ ul {
     width: 30px;
 }  
 
-li {
+.main li {
     width: auto;
     height: 20px;
     background-color: rgb(130, 235, 177);
@@ -130,6 +130,35 @@ li {
     transform: translate(-50%, -50%);
     text-align: flex-start;
     position: relative;
-    width: 30%;
+    width: 0%;
     height: 50%;
+    right: 0%;
+    text-overflow: ellipsis;
+    
   }
+
+.text:hover {
+    background-color:transparent;
+    color: transparent;
+}
+
+.text:active {
+    background-color:rgb(228, 47, 71);
+    color: black;
+}
+.image ul li a {
+    background-color:springgreen;
+    color: black;
+    margin-left: 50%;
+    margin-right: 0;
+    height: 10px;
+    text-align: center;
+    border: 1px solid salmon;
+}
+#KirmiziMeyveler ul li a {
+    background-color:seashell;
+    color:red;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
