@@ -6,17 +6,17 @@
 
 header{
     width:100%;
-    height:100vh;
+    height:100px;
    background-image: url('./img/kirmizimeyveler.jpg');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     display: inline-flex;
-    float: right;
+
 }
 
 .main{
     width: 100%;
-    height: 10%;
+    height: 100%;
 }
  a{
     text-decoration: none;
@@ -31,10 +31,7 @@ header{
  }
 
  
-.main img{
-width: 40px;
-height: 40px;
-}
+
 .title{
     position: fixed;
     top: 50%;
@@ -96,69 +93,41 @@ height: 40px;
  }
 
  .openTo {
-     background-color: rgb(156, 238, 156);
-     padding: 10px;
-     margin: 10px;
-     display: none;
-
-
- }
- #Kirmizimeyveler {
-     display: flex;
-     flex-direction:row;
-     justify-content: space-between;
-     width: 50%;
- }
- #Kiraz {
-     width: 150%;
- }
-  .container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    height: auto;
-  }
-  
-    
-  .text {
-    color: rgb(231, 26, 26);
-    font-size: 20px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: flex-start;
-    position: relative;
-    width: 0%;
-    height: 50%;
-    right: 0%;
-    text-overflow: ellipsis;
-    
-  }
-
-.text:hover {
-    background-color:transparent;
-    color: transparent;
+    background-color: rgb(156, 238, 156);
+    padding: 10px;
+    margin: 10px;
+    display: none;
 }
-
-.text:active {
-    background-color:rgb(228, 47, 71);
-    color: black;
+#ortabölüm {
+    width:20rem;
+    height:15rem;
+    border: 5px solid #000;
+    background-color:#80dbf7;
+    padding: 10px;    
+    text-align: left;
+    margin: 100px;
+    padding: 40px;
 }
-.image ul li a {
-    background-color:springgreen;
-    color: black;
-    margin-left: 50%;
-    margin-right: 0;
-    height: 10px;
-    text-align: center;
-    border: 1px solid salmon;
+.faydalari {
+width:15 rem;
+height:15 rem;
+border: 12px solid rebeccapurple;
+text-align: center;
 }
-#KirmiziMeyveler ul li a {
-    background-color:seashell;
-    color:red;
-    display: block;
-    text-align: center;
-    font-size: 22px;
+.images {
+ background-image: url('img/kiraz1.jpg') ;
+ background-position: 100%;
+ background-size: 100%;
+ width:30rem;
+ height:20rem;
+}
+.cilek {    
+width:40rem;
+height:30rem;
+border: 5px solid rgb(81, 245, 245);
+background-color:#80dbf7;
+padding: 10px;    
+text-align: right;
+margin: auto;
+padding: auto;    
 }
