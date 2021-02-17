@@ -99,36 +99,31 @@ header{
     display: none;
 }
 #ortabölüm {
-    width:20rem;
-    height:15rem;
+    width:25rem;
+    height:20rem;
     border: 5px solid #000;
     background-color:#80dbf7;
-    padding: 10px;    
+      
     text-align: left;
-    margin: 100px;
-    padding: 40px;
+    
 }
-.faydalari {
-width:15 rem;
-height:15 rem;
-border: 12px solid rebeccapurple;
-text-align: center;
-}
-.images {
+
+#images {
  background-image: url('img/kiraz1.jpg') ;
  background-position: 100%;
  background-size: 100%;
- width:30rem;
+ width:25rem;
  height:20rem;
 }
 .text1{    
 width:25rem;
-height:25rem;
-border: 5px solid rgb(204, 124, 124);
+height:20rem;
+border: 5px solid rgb(19, 18, 18);
 background-color:#d15757;
-padding: 10px;    
+padding: 10px 10px 0 0;    
 text-align: left;
 margin: auto;
-padding: auto;   
+
 text-decoration: #7fe95f; 
+background-position: 100%;
 }
