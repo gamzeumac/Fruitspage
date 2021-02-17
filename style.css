@@ -121,13 +121,14 @@ text-align: center;
  width:30rem;
  height:20rem;
 }
-.cilek {    
-width:40rem;
-height:30rem;
-border: 5px solid rgb(81, 245, 245);
-background-color:#80dbf7;
+.text1{    
+width:25rem;
+height:25rem;
+border: 5px solid rgb(204, 124, 124);
+background-color:#d15757;
 padding: 10px;    
-text-align: right;
+text-align: left;
 margin: auto;
-padding: auto;    
+padding: auto;   
+text-decoration: #7fe95f; 
 }
