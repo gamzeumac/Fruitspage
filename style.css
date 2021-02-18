@@ -6,12 +6,11 @@
 
 header{
     width:100%;
-    height:100px;
+    height:150px;
    background-image: url('./img/kirmizimeyveler.jpg');
     background-size: auto;
     background-position: center;
     display: inline-flex;
-
 }
 
 .main{
@@ -99,31 +98,49 @@ header{
     display: none;
 }
 #ortabölüm {
-    width:25rem;
-    height:20rem;
-    border: 5px solid #000;
-    background-color:#80dbf7;
-      
-    text-align: left;
-    
-}
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-top: 1rem;
 
-#images {
- background-image: url('img/kiraz1.jpg') ;
- background-position: 100%;
- background-size: 100%;
- width:25rem;
- height:20rem;
 }
-.text1{    
-width:25rem;
+.text {  
+width:20rem;
 height:20rem;
-border: 5px solid rgb(19, 18, 18);
-background-color:#d15757;
-padding: 10px 10px 0 0;    
-text-align: left;
-margin: auto;
+border: 2px solid #000;
+background-color:#80dbf7;
+text-align: left;   
+margin: 10px;
+padding: 10px 10px 0px 0px;
+box-sizing: content-box;
+position: relative;
+}
 
+
+.text1{    
+width:20rem;
+height:20rem;
+border: 2px solid rgb(19, 18, 18);
+background-color:#d15757;
+text-align: left;
+margin: 10px;
+padding: 10px 10px 10px 10px;
 text-decoration: #7fe95f; 
 background-position: 100%;
+box-sizing: content-box;
+position: relative;
+}
+
+.text2{
+width:20rem;
+height:20rem;
+border: 2px solid rgb(19, 18, 18);
+background-color:#e70606;
+text-align: left;
+margin: 10px;
+padding: 10px 10px 10px 10px;
+text-decoration: #08ddaf; 
+background-position: 100%;
+box-sizing: content-box;
+position: relative;
 }
