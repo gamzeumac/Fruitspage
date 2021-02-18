@@ -116,6 +116,12 @@ box-sizing: content-box;
 position: relative;
 }
 
+.text:hover{
+    background-image: url(/img/kiraz.jpg) ;
+    content: url(/img/kiraz.jpg);
+    background-position:top;
+}
+
 
 .text1{    
 width:20rem;
