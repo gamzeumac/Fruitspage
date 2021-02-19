@@ -1,102 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Century Gothic;
 }
 
-header{
-    width:100%;
-    height:150px;
-   background-image: url('./img/kirmizimeyveler.jpg');
-    background-size: auto;
-    background-position: center;
+nav .list{
+    width: 100%;
+    height: 100px;
     display: inline-flex;
+    justify-content: auto;
+    flex-direction: row;
+    
+    text-align: center;
+    text-decoration: none;
+    list-style: relative;
+    overflow: hidden;
 }
 
-.main{
-    width: 100%;
-    height: 100%;
-}
- a{
+a {
     text-decoration: none;
-    color: rgb(228, 39, 39);
-    padding: 5px 20px;
+    color: rgba(189, 118, 118, 0.596);
     border: 1px solid transparent;
     transition: 0.6s ease;
- }
- a:hover{
-    background-color: #fff;
-    color: #7fe95f;
- }
-
- 
-
-.title{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
+    margin: 10px 0;
+    padding: 40px;
 }
 
-.title h1{
-    color: #fff;
-    font-size: 10px;
-    }
-
-.main ul li a{
-        position:relative;
-        text-align: center;
-        text-decoration: none;
-        background-color:rgb(130, 235, 177);
-        font: bold 14px Tahoma;
-        display: block;
-        width: 140px;
-        height: 20px;
-        padding: 10px
-  }
-
-.main ul li a:hover {
-      background-color: salmon;
-      color: seashell;
-  }
-.main ul li a:active {
-     background-color:springgreen;
-     color: black;
-
- } 
-
-.main ul {
-    display: flex;
-    background-color: transparent;
-    margin: 10px;
-    padding: 10px;
-    height: 20px;
-    width: 30px;
-}  
-
-.main li {
-    width: auto;
-    height: 20px;
-    background-color: rgb(130, 235, 177);
-    margin: 2rem;
-    float: left;
+a:hover {
+    background-color: rgb(238, 227, 227);
+    color: #323332;
 }
 .dateClass {
     width: 50px;
     height: 50px;
     display: inline-flex;
-    }
+}
 
 .demo {
     display: none;
- }
+}
 
- .openTo {
+.openTo {
     background-color: rgb(156, 238, 156);
     padding: 10px;
     margin: 10px;
     display: none;
 }
+
 #ortabölüm {
     display: flex;
     flex-direction: row;
@@ -104,83 +54,90 @@ header{
     margin-top: 1rem;
     padding-top: 1rem;
     width: 100%;
-    flex-wrap: wrap;   
-
-}
-.text {  
-width:20rem;
-height:20rem;
-border: 2px solid #000;
-background-color:#80dbf7;
-text-align: left;   
-margin: 10px;
-box-sizing: content-box;
-position: relative;
+    flex-wrap: wrap;
 }
 
-.text:hover{
-background-image: url(/img/kiraz.jpg) ;
-content: url(/img/kiraz.jpg);
-background-position:top;
+.text {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid #000;
+    background-color: #80dbf7;
+    text-align: left;
+    margin: 10px;
+    box-sizing: content-box;
+    position: relative;
 }
 
-
-.text1{    
-width:20rem;
-height:20rem;
-border: 2px solid rgb(19, 18, 18);
-background-color:#d15757;
-text-align: left;
-margin: 10px;
-text-decoration: #7fe95f; 
-background-position: 100%;
-box-sizing: content-box;
-position: relative;
+.text:hover {
+    background-image: url(/img/kiraz.jpg);
+    content: url(/img/kiraz.jpg);
+    background-position: top;
 }
 
-.text1:hover{
-    background-image: url(/img/cilek.jpeg) ;
+.text1 {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid rgb(19, 18, 18);
+    background-color: #d15757;
+    text-align: left;
+    margin: 10px;
+    text-decoration: #7fe95f;
+    background-position: 100%;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.text1:hover {
+    background-image: url(/img/cilek.jpeg);
     content: url(/img/cilek.jpeg);
-    background-position:top;
+    background-position: top;
 }
 
-
-.text2{
-width:20rem;
-height:20rem;
-border: 2px solid rgb(19, 18, 18);
-background-color:#e70606;
-text-align: left;
-margin: 10px;
-text-decoration: #08ddaf; 
-background-position: 100%;
-box-sizing: content-box;
-position: relative;
+.text2 {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid rgb(19, 18, 18);
+    background-color: #e70606;
+    text-align: left;
+    margin: 10px;
+    text-decoration: #08ddaf;
+    background-position: 100%;
+    box-sizing: content-box;
+    position: relative;
 }
 
-.text2:hover{
-    background-image: url(/img/ahududu.jpg) ;
+.text2:hover {
+    background-image: url(/img/ahududu.jpg);
     content: url(/img/ahududu.jpg);
-    background-position:top;
+    background-position: top;
 }
 
-.text3{
-width:20rem;
-height:20rem;
-border: 2px solid rgb(19, 18, 18);
-background-color:#df853c;
-text-align: left;
-margin: 10px;
-text-decoration: #08ddaf; 
-background-position: 100%;
-box-sizing: content-box;
-position: relative;
+.text3 {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid rgb(19, 18, 18);
+    background-color: #df853c;
+    text-align: left;
+    margin: 10px;
+    text-decoration: #08ddaf;
+    background-position: 100%;
+    box-sizing: content-box;
+    position: relative;
+   
 }
 
-.text3:hover{
-background-image: url(/img/meyvetabagi.jpg) ;
-content: url(/img/meyvetabagi.jpg);
-background-position:top;
+.text3:hover {
+    background-image: url(/img/meyvetabagi.jpg);
+    content: url(/img/meyvetabagi.jpg);
+    background-position: top;
 }
-    
 
+#Antioksidanlar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
