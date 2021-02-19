@@ -99,9 +99,12 @@ header{
 }
 #ortabölüm {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 1rem;
     padding-top: 1rem;
+    width: 100%;
+    flex-wrap: wrap;   
 
 }
 .text {  
@@ -116,9 +119,9 @@ position: relative;
 }
 
 .text:hover{
-    background-image: url(/img/kiraz.jpg) ;
-    content: url(/img/kiraz.jpg);
-    background-position:top;
+background-image: url(/img/kiraz.jpg) ;
+content: url(/img/kiraz.jpg);
+background-position:top;
 }
 
 
@@ -160,3 +163,24 @@ position: relative;
     content: url(/img/ahududu.jpg);
     background-position:top;
 }
+
+.text3{
+width:20rem;
+height:20rem;
+border: 2px solid rgb(19, 18, 18);
+background-color:#df853c;
+text-align: left;
+margin: 10px;
+text-decoration: #08ddaf; 
+background-position: 100%;
+box-sizing: content-box;
+position: relative;
+}
+
+.text3:hover{
+background-image: url(/img/meyvetabagi.jpg) ;
+content: url(/img/meyvetabagi.jpg);
+background-position:top;
+}
+    
+
