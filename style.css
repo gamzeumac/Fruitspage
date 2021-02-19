@@ -111,7 +111,6 @@ border: 2px solid #000;
 background-color:#80dbf7;
 text-align: left;   
 margin: 10px;
-padding: 10px 10px 0px 0px;
 box-sizing: content-box;
 position: relative;
 }
@@ -130,12 +129,18 @@ border: 2px solid rgb(19, 18, 18);
 background-color:#d15757;
 text-align: left;
 margin: 10px;
-padding: 10px 10px 10px 10px;
 text-decoration: #7fe95f; 
 background-position: 100%;
 box-sizing: content-box;
 position: relative;
 }
+
+.text1:hover{
+    background-image: url(/img/cilek.jpeg) ;
+    content: url(/img/cilek.jpeg);
+    background-position:top;
+}
+
 
 .text2{
 width:20rem;
@@ -144,9 +149,14 @@ border: 2px solid rgb(19, 18, 18);
 background-color:#e70606;
 text-align: left;
 margin: 10px;
-padding: 10px 10px 10px 10px;
 text-decoration: #08ddaf; 
 background-position: 100%;
 box-sizing: content-box;
 position: relative;
+}
+
+.text2:hover{
+    background-image: url(/img/ahududu.jpg) ;
+    content: url(/img/ahududu.jpg);
+    background-position:top;
 }
