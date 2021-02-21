@@ -3,17 +3,18 @@
     padding: 0;
     font-family: Century Gothic;
 }
+header {
+    float: right;
+}
 
-nav .list{
+nav #list{
     width: 100%;
     height: 100px;
-    display: inline-flex;
-    justify-content: auto;
-    flex-direction: row;
-    
-    text-align: center;
+    display: flex;
+    justify-content: end !important;
+    flex-direction: row;    
+    text-align: end !important;
     text-decoration: none;
-    list-style: relative;
     overflow: hidden;
 }
 
@@ -22,8 +23,8 @@ a {
     color: rgba(189, 118, 118, 0.596);
     border: 1px solid transparent;
     transition: 0.6s ease;
-    margin: 10px 0;
-    padding: 40px;
+    margin: 10px;
+    padding: 20px;
 }
 
 a:hover {
@@ -34,17 +35,6 @@ a:hover {
     width: 50px;
     height: 50px;
     display: inline-flex;
-}
-
-.demo {
-    display: none;
-}
-
-.openTo {
-    background-color: rgb(156, 238, 156);
-    padding: 10px;
-    margin: 10px;
-    display: none;
 }
 
 #ortabölüm {
@@ -64,73 +54,58 @@ a:hover {
     background-color: #80dbf7;
     text-align: left;
     margin: 10px;
+    padding: 10px;
     box-sizing: content-box;
     position: relative;
 }
 
-.text:hover {
+.text p {
+    display: none;
+}
+
+.text:nth-child(1){
     background-image: url(/img/kiraz.jpg);
-    content: url(/img/kiraz.jpg);
-    background-position: top;
+    background-size: cover;
+}
+.text:nth-child(1):hover{
+    background: rgb(230, 96, 96) !important;
+}
+.text:nth-child(1):hover p{
+    display: inline-block !important;
+    font-family: Stick;
 }
 
-.text1 {
-    width: 20rem;
-    height: 20rem;
-    border: 2px solid rgb(19, 18, 18);
-    background-color: #d15757;
-    text-align: left;
-    margin: 10px;
-    text-decoration: #7fe95f;
-    background-position: 100%;
-    box-sizing: content-box;
-    position: relative;
-}
 
-.text1:hover {
+.text:nth-child(2){
     background-image: url(/img/cilek.jpeg);
-    content: url(/img/cilek.jpeg);
-    background-position: top;
+    background-size: cover;
 }
 
-.text2 {
-    width: 20rem;
-    height: 20rem;
-    border: 2px solid rgb(19, 18, 18);
-    background-color: #e70606;
-    text-align: left;
-    margin: 10px;
-    text-decoration: #08ddaf;
-    background-position: 100%;
-    box-sizing: content-box;
-    position: relative;
+
+.text:nth-child(2):hover{
+    background: rgb(121, 231, 235) !important;
 }
 
-.text2:hover {
+.text:nth-child(2):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+.text:nth-child(3){
     background-image: url(/img/ahududu.jpg);
-    content: url(/img/ahududu.jpg);
-    background-position: top;
+    background-size: cover;
 }
 
-.text3 {
-    width: 20rem;
-    height: 20rem;
-    border: 2px solid rgb(19, 18, 18);
-    background-color: #df853c;
-    text-align: left;
-    margin: 10px;
-    text-decoration: #08ddaf;
-    background-position: 100%;
-    box-sizing: content-box;
-    position: relative;
-   
+
+.text:nth-child(3):hover{
+    background: rgb(238, 122, 77) !important;
 }
 
-.text3:hover {
-    background-image: url(/img/meyvetabagi.jpg);
-    content: url(/img/meyvetabagi.jpg);
-    background-position: top;
+.text:nth-child(3):hover p{
+    display: inline-block !important;
+    font-family: Stick;
 }
+
 
 #Antioksidanlar {
     display: flex;
@@ -140,4 +115,141 @@ a:hover {
     padding-top: 1rem;
     width: 100%;
     flex-wrap: wrap;
+}
+.text1{
+width: 20rem;
+height: 20rem;
+border: 2px solid #000;
+background-color: #80dbf7;
+text-align: left;
+margin: 10px;
+padding: 10px;
+box-sizing: content-box;
+position: relative;    
+}
+.text1 p{
+    display: none;
+}
+
+.text1:nth-child(1){
+    background-image: url(/img/meyvetabagi.jpg) ;
+    background-size: cover;
+}
+.text1:nth-child(1):hover{
+    background: rgb(188, 238, 141) !important;
+}
+.text1:nth-child(1):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+
+.text1:nth-child(2){
+    background-image: url(/img/pexels-any-lane-5945849.jpg) ;
+    background-size: cover;
+}
+.text1:nth-child(2):hover{
+    background: rgb(230, 209, 116) !important;
+}
+.text1:nth-child(2):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+.text1:nth-child(3){
+    background-image: url(/img/pexels-meli-di-rocco-940861.jpg) ;
+    background-size: cover;
+}
+.text1:nth-child(3):hover{
+    background: rgb(165, 35, 197) !important;
+}
+.text1:nth-child(3):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+#Güclendiriciler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.text2 {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid #000;
+    background-color: #80dbf7;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.text2 p {
+    display: none;
+}
+
+
+.text2:nth-child(1){
+    background-image: url(/img/pexels-snapwire-34955.jpg) ;
+    background-size: cover;
+}
+.text2:nth-child(1):hover{
+    background: rgb(16, 230, 112) !important;
+}
+.text2:nth-child(1):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+.text2:nth-child(2){
+    background-image: url(/img/massimo-adami-EekhSNwbShE-unsplash.jpg) ;
+    background-size: cover;
+}
+.text2:nth-child(2):hover{
+    background: rgb(182, 233, 180) !important;
+}
+.text2:nth-child(2):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+.text2:nth-child(3){
+    background-image: url(/img/pexels-alvaro-avivar-5862146.jpg) ;
+    background-size: cover;
+}
+.text2:nth-child(3):hover{
+    background: transparent;
+}
+.text2:nth-child(3):hover p{
+    display: inline-block !important;
+    font-family: Stick;
+}
+
+
+
+
+
+
+
+
+footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+footer ul li{
+  color: #fff;
+  margin: 1rem;
 }
