@@ -64,7 +64,7 @@ a:hover {
 }
 
 .text:nth-child(1){
-    background-image: url(/img/kiraz.jpg);
+    background-image: url('./img/kiraz.jpg');
     background-size: cover;
 }
 .text:nth-child(1):hover{
